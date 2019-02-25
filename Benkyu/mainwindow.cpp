@@ -12,3 +12,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_ins_but_clicked()
+{
+    insword = new insertword(this);
+    insword->setModal(true);
+    insword->show();
+}

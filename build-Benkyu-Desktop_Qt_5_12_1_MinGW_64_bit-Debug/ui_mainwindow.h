@@ -26,9 +26,9 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *ins_but;
+    QPushButton *test_but;
+    QPushButton *sel_but;
     QTableView *tableView;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
@@ -41,15 +41,15 @@ public:
         MainWindow->resize(851, 539);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(580, 130, 75, 23));
-        pushButton_2 = new QPushButton(centralWidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(580, 210, 75, 23));
-        pushButton_3 = new QPushButton(centralWidget);
-        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(580, 170, 75, 23));
+        ins_but = new QPushButton(centralWidget);
+        ins_but->setObjectName(QString::fromUtf8("ins_but"));
+        ins_but->setGeometry(QRect(580, 130, 75, 23));
+        test_but = new QPushButton(centralWidget);
+        test_but->setObjectName(QString::fromUtf8("test_but"));
+        test_but->setGeometry(QRect(580, 210, 75, 23));
+        sel_but = new QPushButton(centralWidget);
+        sel_but->setObjectName(QString::fromUtf8("sel_but"));
+        sel_but->setGeometry(QRect(580, 170, 75, 23));
         tableView = new QTableView(centralWidget);
         tableView->setObjectName(QString::fromUtf8("tableView"));
         tableView->setGeometry(QRect(50, 80, 391, 301));
@@ -73,9 +73,10 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "\346\267\273\345\212\240\345\215\225\350\257\215", nullptr));
-        pushButton_2->setText(QApplication::translate("MainWindow", "\346\265\213\350\257\225", nullptr));
-        pushButton_3->setText(QApplication::translate("MainWindow", "\347\255\233\351\200\211", nullptr));
+        ins_but->setText(QApplication::translate("MainWindow", "\346\267\273\345\212\240\345\215\225\350\257\215", nullptr));
+        test_but->setText(QApplication::translate("MainWindow", "\346\265\213\350\257\225", nullptr));
+        sel_but->setText(QApplication::translate("MainWindow", "\347\255\233\351\200\211", nullptr));
+        mainToolBar->setWindowTitle(QApplication::translate("MainWindow", "Benkyu", nullptr));
     } // retranslateUi
 
 };

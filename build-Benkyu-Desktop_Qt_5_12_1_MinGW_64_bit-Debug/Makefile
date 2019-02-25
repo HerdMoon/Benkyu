@@ -222,6 +222,7 @@ Makefile: ../Benkyu/Benkyu.pro F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g+
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/qt_config.prf \
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g++/qmake.conf \
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/exclusive_builds.prf \
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/toolchain.prf \
 		F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/default_pre.prf \
@@ -410,6 +411,7 @@ F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/qt_functions.prf:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/qt_config.prf:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g++/qmake.conf:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/exclusive_builds.prf:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/toolchain.prf:
 F:/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/features/default_pre.prf:

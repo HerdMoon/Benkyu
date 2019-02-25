@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "insertword.h"
 
 namespace Ui {
 class MainWindow;
@@ -15,8 +16,12 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_ins_but_clicked();
+
 private:
     Ui::MainWindow *ui;
+    insertword * insword;
 };
 
 #endif // MAINWINDOW_H
